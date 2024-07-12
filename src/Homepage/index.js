@@ -14,7 +14,7 @@ const Homepage =()=>{
            <figcaption>Ivy Wanjiku</figcaption>
            <figcaption>Software Developer</figcaption>
            <figcaption >Nationality:Kenyan</figcaption>
-           <figcaption className='port'>Portfolio</figcaption>
+           <figcaption className='port'><a >View Portfolio</a></figcaption>
            </div>
            <div className='fanny'>
            <img src='pics/fanny.png' alt='Fanny'/>
@@ -37,7 +37,7 @@ const Homepage =()=>{
            <figcaption>Ajema Agnes</figcaption>
            <figcaption>Software Developer</figcaption>
            <figcaption >Nationality:Kenyan</figcaption>
-           <figcaption className='port'>Portfolio</figcaption>
+           <figcaption className='port'><a href='https://myportfolio-eosin-eight.vercel.app/' >View Portfolio</a></figcaption>
            </div>
            <div className='raziah'>
            <img src='pics/raziah.png' alt='Raziah'/>
