@@ -2,9 +2,13 @@ import './index.css'
 
 function Blog(){
     return(
-
-        <div className='blog-layout-container'>
+<div>
     
+       <div className='blog-text'>
+        <p>Femme Blogs</p>
+    </div>
+    <div className='blog-layout-container'>
+
      <div className='book-cover'>
         <img src='images/Born A crime.jpg'></img>
         </div>
@@ -17,13 +21,13 @@ function Blog(){
         <img src = 'images/books and flowers.jpg'></img>
 
     </div>
-    {/* <div className='blog-text'>
-        <p>Femme Blogs</p>
-    </div> */}
-   
+    
+        </div>
+        <div className='button'>
+            <button>Read More</button>
         </div>
 
-
+</div>
     
     )
        
