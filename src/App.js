@@ -1,13 +1,12 @@
-import './App.css';
+import './App.css'
+import Blog from "./Blog";
 import Home from './Home';
 
-function App() {
-  return (
-    <div >
-      <Home/>
-  
-    </div>
-  );
-}
+const App = () =>{
 
-export default App;
+return (
+    <div>
+   <Home/>
+      <Blog/>
+      
+export default App
