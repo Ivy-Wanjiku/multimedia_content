@@ -1,9 +1,9 @@
- import Video from "./Videosection";
+import Home from './Home';
+import Video from "./Videosection";
+import Blog from "./Blog";
 import Podcast from './Podcast';
 import './App.css'
-import Blog from "./Blog";
-import Home from './Home';
-
+import Homepage from './Homepage';
 const App = () =>{
 return (
     <div>
@@ -11,5 +11,5 @@ return (
    <Video/>
       <Blog/>
   <Podcast/>
-      
+    <Homepage/>  
 export default App;
