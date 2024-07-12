@@ -1,13 +1,13 @@
-
-import './App.css';
 import Podcast from './Podcast';
+import './App.css'
+import Blog from "./Blog";
+import Home from './Home';
 
-function App() {
-  return (
-    <div className="App">
-<Podcast/>
-    </div>
-  );
-}
-
-export default App;
+const App = () =>{
+return (
+    <div>
+   <Home/>
+      <Blog/>
+  <Podcast/>
+      
+export default App
