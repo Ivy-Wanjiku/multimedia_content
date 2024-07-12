@@ -54,7 +54,7 @@ function Video(){
 
 </div>
 
-  <div>
+  <div className='video3'>
     <a href="https://www.loom.com/share/0fb0846b623e459681106701bb7f33df">
       <p>Maendeleo ya Mradi wa Backend - Watch Video</p>
     </a>
