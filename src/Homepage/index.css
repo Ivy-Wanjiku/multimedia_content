@@ -1,15 +1,13 @@
-body{
+whole{
     font-family:serif;
     background-color: rgb(173, 243, 243);
     background-image: linear-gradient(rgb(240, 203, 203), rgb(131, 231, 226),rgb(252, 199, 208));
-    
-    
 }
 .port{
     color: #11074D;
     font-size: 20px;
 }
-img{
+.pic{
     border-radius: 50%;
     width:242px;
     height: 242px;
@@ -23,17 +21,17 @@ img{
     justify-content: space-evenly;
     margin-top: -90px;
 }
-h1{
+.title{
     color: #11074D;
     font-size: 50px;
 }
-figcaption{
+.caption{
     font-size: 20px;
 }
 .akwang{
     margin-top: -170px;
 }
-whole{
+.whole{
     margin: 0;
     padding: 0%;
 }
