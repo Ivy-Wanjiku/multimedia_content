@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(64, 51, 200);
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 2px 0;
+  transition: 0.4s;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 160px;
+  margin-left: 50px;
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: rgb(17, 13, 60) ;
+}
+
+.hero-image {
+  width: 45%;
+}
+
+.hero-image img {
+  height: auto;
+  width: 700px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-image img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  nav.open .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(56, 44, 190);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+
+  nav.open .nav-links li {
+    margin: 1rem 0;
+  }
+
+  nav.open .hamburger {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 11;
+  }
+
+  nav.open .hamburger span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  nav.open .hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  nav.open .hamburger span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .hero-content, .hero-image {
+    width: 100%;
+  }
+
+  .hero-content {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .hero {
+    margin-top: 40px;
+  }
+}

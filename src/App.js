@@ -1,15 +1,15 @@
-import './App.css';
+import Home from './Home';
+import Video from "./Videosection";
+import Blog from "./Blog";
+import Podcast from './Podcast';
+import './App.css'
 import Homepage from './Homepage';
-
-
-function App() {
-  return (
-    <div className="App">
-     <Homepage/> 
-     
-
-    </div>
-  );
-}
-
+const App = () =>{
+return (
+    <div>
+   <Home/>
+   <Video/>
+      <Blog/>
+  <Podcast/>
+    <Homepage/>  
 export default App;
