@@ -5,20 +5,20 @@ function Blog(){
 <div>
     
        <div className='blog-text'>
-        <p>Femme Blogs</p>
+        <p className='blog'>Femme Blogs</p>
     </div>
     <div className='blog-layout-container'>
 
      <div className='book-cover'>
-        <img src='images/Born A crime.jpg'></img>
+        <img src='images/Born A crime.jpg' className='big'></img>
         </div>
 
     <div className='aerial-view-book'>
-        <img src='images/aerial view book.jpg'></img>
+        <img src='images/aerial view book.jpg' className='big'></img>
     </div>
 
     <div className='books-and-flowers'>
-        <img src = 'images/books and flowers.jpg'></img>
+        <img src = 'images/books and flowers.jpg' className='big'></img>
 
     </div>
     
@@ -27,10 +27,12 @@ function Blog(){
             <button>Read More</button>
         </div>
 
+
 </div>
+
     
     )
        
-          
+    
     }
 export default Blog;

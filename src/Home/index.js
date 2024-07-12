@@ -30,18 +30,9 @@ const Home = () => {
           </div>
         </nav>
       </header>
-      
-      <main>
-        <section className="hero">
-          <div className="hero-content">
-            <h1>Discover inspiring multimedia content and advanced technical skills.</h1>
-        
+      <div className="hero-content">
+            <h5>Discover inspiring multimedia content and advanced technical skills.</h5>
           </div>
-          <div className="hero-image">
-            <img src="images/multimedia.png" alt="Multimedia Content"/>
-          </div>
-        </section>
-      </main>
  
     </div>
   );

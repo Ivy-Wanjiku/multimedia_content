@@ -1,5 +1,5 @@
 
-img{
+.big{
     height:70vh;
     width: 110%;
     backdrop-filter: blur(0.5px); 
@@ -21,14 +21,9 @@ img{
     
 
 }
-h1{    font-size: 30px;
 
-    color:white;
-    position:absolute;
-    
-}
 
-p{
+.blog{
     margin-left: 43%;
     margin-top: 2.5%;
     font-family:'Franklin Gothic Medium';
@@ -42,4 +37,21 @@ button{
     margin-top: 2.5%;
     -webkit-text-fill-color: beige;
     margin-left: 48%;
+}
+.book-cover{
+    height:70vh;
+    width: 110%;
+    backdrop-filter: blur(0.5px); 
+    background-color: rgba(255, 255, 255, 0.2);
+    /* border-radius: 20%; */
+    gap:320px;
+}
+.aerial-view-book{
+    height:70vh;
+    width: 110%;
+    backdrop-filter: blur(0.5px); 
+    background-color: rgba(255, 255, 255, 0.2);
+    /* border-radius: 20%; */
+    gap:320px;
+
 }
