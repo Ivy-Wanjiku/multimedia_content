@@ -1,6 +1,7 @@
 .whole {
     font-family: serif;
-    background-color: rgb(203, 240, 240);
+    color: white;
+
   }
   
   .port {
@@ -17,7 +18,7 @@
   .top,
   .bottom {
     display: flex;
-    justify-content: space-evenly;
+    gap: 900px;
   }
   
   .bottom {
@@ -31,10 +32,27 @@
   
   .caption {
     font-size: 20px;
+    color: #11074d;
   }
   
   .akwang {
     margin-top: -170px;
+    margin-left: 700px;
+    color: #050313;
+  }
+  .ivy{
+    color: #050313;
+    margin-left: 100px;
+  }
+  .ajema{
+    color: #050313;
+    margin-left: 100px;
+  }
+  .raziah{
+    color: #050313;
+  }
+  .fanny{
+    color: #050313;
   }
   
   .one {
@@ -46,8 +64,10 @@
   }
   
   .images {
-    margin-left: 10%;
+    margin-left: 7%;
+    font-size: 1.1rem;
   }
-  h1{
+  .team{
     text-align: center;
+    color: hsl(249, 54%, 97%);
   }
