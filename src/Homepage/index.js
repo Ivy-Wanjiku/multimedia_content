@@ -5,7 +5,7 @@ const Homepage =()=>{
  return(
     <div className='whole'>
         <div>
-            <h1>OUR TEAM</h1>
+            <h1 className='team'>OUR TEAM</h1>
         </div>
         <div className='images'>
             <div className='top'>
