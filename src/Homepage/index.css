@@ -1,43 +1,53 @@
-whole{
-    font-family:serif;
-    background-color: rgb(173, 243, 243);
-    background-image: linear-gradient(rgb(240, 203, 203), rgb(131, 231, 226),rgb(252, 199, 208));
-}
-.port{
-    color: #11074D;
+.whole {
+    font-family: serif;
+    background-color: rgb(203, 240, 240);
+  }
+  
+  .port {
+    color: #11074d;
     font-size: 20px;
-}
-.pic{
+  }
+  
+  .pic {
     border-radius: 50%;
-    width:242px;
+    width: 242px;
     height: 242px;
-}
-.top{
+  }
+  
+  .top,
+  .bottom {
     display: flex;
     justify-content: space-evenly;
-}
-.bottom{
-    display: flex;
-    justify-content: space-evenly;
+  }
+  
+  .bottom {
     margin-top: -90px;
-}
-.title{
-    color: #11074D;
+  }
+  
+  .title {
+    color: #11074d;
     font-size: 50px;
-}
-.caption{
+  }
+  
+  .caption {
     font-size: 20px;
-}
-.akwang{
+  }
+  
+  .akwang {
     margin-top: -170px;
-}
-.whole{
-    margin: 0;
-    padding: 0%;
-}
-.one{
+  }
+  
+  .one {
     display: flex;
-}
-.heading{
+  }
+  
+  .heading {
     display: flex;
-}
+  }
+  
+  .images {
+    margin-left: 10%;
+  }
+  h1{
+    text-align: center;
+  }

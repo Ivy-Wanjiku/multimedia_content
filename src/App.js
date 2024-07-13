@@ -1,17 +1,17 @@
-import Home from './Home';
-import Video from "./Videosection";
-import Blog from "./Blog";
+// import Home from './Home';
+// import Video from "./Videosection";
+// import Blog from "./Blog";
 import Podcast from './Podcast';
 import './App.css'
-import Homepage from './Homepage';
+// import Homepage from './Homepage';
 const App = () =>{
 return (
     <div>
-   <Home/>
+   {/* <Home/>
    <Video/>
-      <Blog/>
+      <Blog/> */}
   <Podcast/>
-    <Homepage/>
+    {/* <Homepage/> */}
     </div>
     )
     }

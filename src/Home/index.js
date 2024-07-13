@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './index.css';
 
@@ -14,13 +13,13 @@ const Home = () => {
       <header>
         <nav className={menuOpen ? 'open' : ''}>
           <div className="logo">
-            <img src="images/concoror.png" alt="Logo"/>
+            <img src="media/inganji logo.png" alt="Logo"/>
           </div>
           <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
             <li><a href="#home" onClick={toggleMenu}>Home</a></li>
-            <li><a href="#portfolio" onClick={toggleMenu}>Portfolio</a></li>
-            <li><a href="#podcasts" onClick={toggleMenu}>Podcasts</a></li>
-            <li><a href="#blogs" onClick={toggleMenu}>Blogs</a></li>
+            <li><a href="#portfolio"onClick={toggleMenu}>Portfolio</a></li>
+            <li><a href="#podcasts"onClick={toggleMenu}>Podcasts</a></li>
+            <li><a href="#blogs"onClick={toggleMenu}>Blogs</a></li>
             <li><a href="#videos" onClick={toggleMenu}>Videos</a></li>
           </ul>
           <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>

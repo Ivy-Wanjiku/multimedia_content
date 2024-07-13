@@ -5,7 +5,7 @@ import './index.css'
 function Video(){
     return(
         <div>
-         <div className='title'>
+         <div className='title-content'>
              <h1>HOW THINGS WORK</h1> 
              <h1>GITHUB</h1>
          </div>
