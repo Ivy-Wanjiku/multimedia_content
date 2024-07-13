@@ -1,6 +1,8 @@
 .whole {
     font-family: serif;
     color: white;
+  background-color:rgb(43,89,106);
+
 
   }
   
@@ -69,5 +71,7 @@
   }
   .team{
     text-align: center;
+
     color: hsl(249, 54%, 97%);
   }
+
