@@ -67,6 +67,7 @@ function Podcast(){
        
         </div>
            </div>
+           <hr></hr>
            </div>
     )
 }
