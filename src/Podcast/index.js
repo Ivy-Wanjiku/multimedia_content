@@ -2,6 +2,7 @@ import "./index.css"
 function Podcast(){
     return(
         <div>
+            <hr></hr>
         <div className="main">
             <div className="content">
                 <h1>NEW ERA PODCASTING</h1>

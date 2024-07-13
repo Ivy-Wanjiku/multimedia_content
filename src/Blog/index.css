@@ -1,57 +1,45 @@
-
-.big{
-    height:70vh;
-    width: 110%;
-    backdrop-filter: blur(0.5px); 
-    background-color: rgba(255, 255, 255, 0.2);
-    /* border-radius: 20%; */
-    gap:320px;
-
-    /* box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
-    -webkit-backdrop-filter: blur(5px); 
-    backdrop-filter: blur(5px);  */
-    /* filter: grayscale(70%); */
-     
-}
-.blog-layout-container{
-    display:flex;
-    background-color: rgb(27, 113, 133);
-    margin-top: 2.5%;
-    gap: 270px;
-    
-
-}
-
-
-.blog{
-    margin-left: 43%;
-    margin-top: 2.5%;
-    font-family:'Franklin Gothic Medium';
-    font-size: 50px;
-}
-button{
-    background-color: blue;
-    font-size: larger;
-    padding:10px;
-    border-radius: 20px;
-    margin-top: 2.5%;
-    -webkit-text-fill-color: beige;
-    margin-left: 48%;
-}
-.book-cover{
-    height:70vh;
-    width: 110%;
-    backdrop-filter: blur(0.5px); 
-    background-color: rgba(255, 255, 255, 0.2);
-    /* border-radius: 20%; */
-    gap:320px;
-}
-.aerial-view-book{
-    height:70vh;
-    width: 110%;
-    backdrop-filter: blur(0.5px); 
-    background-color: rgba(255, 255, 255, 0.2);
-    /* border-radius: 20%; */
-    gap:320px;
-
-}
+.blog-text {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .blog {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .blog-layout-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .book-cover,
+  .aerial-view-book,
+  .books-and-flowers {
+    flex: 1;
+  }
+  
+  .big {
+    width: 100%;
+    height: 70%;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-top: -15%;
+  }
+  
+  .button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .button button:hover {
+    background-color: #0056b3;
+  }
