@@ -6,7 +6,7 @@ function Podcast() {
 
   const podcasts = [
     {
-      title: "Market Research vs Design Research",
+      title: "Women role in the socity",
       audioSrc: "/media/inganji.mp3",
     },
     {
