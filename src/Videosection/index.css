@@ -1,7 +1,6 @@
 .title{
-    font-size: large;
     text-align: center;
-    color: black;
+    color: rgb(43,89,106);
 }
 .loom-video{
     display: flex;
@@ -150,9 +149,8 @@
   margin-top: 30px;
 }
 .loom-video3{
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20%;
 }
 .title{
   font-size: xx-large;

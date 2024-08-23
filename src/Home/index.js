@@ -9,7 +9,7 @@ const Home = () => {
   };
 
   return (
-    <div className="landing-page">
+    <div className="landing_inspo">
       <header>
         <nav className={menuOpen ? 'open' : ''}>
           <div className="logo">

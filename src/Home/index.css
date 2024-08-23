@@ -4,7 +4,7 @@
   box-sizing: border-box;
 } */
 
-.landing-page {
+.landing_inspo {
   background-image: url('/public/images/microphone.jpg');
   min-height: 100vh;
   background-repeat: no-repeat;

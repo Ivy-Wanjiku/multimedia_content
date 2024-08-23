@@ -20,8 +20,9 @@ const Homepage =()=>{
            <img src='pics/fanny.png' alt='Fanny' className='pic'/>
            <figcaption>Ingabire Fanny</figcaption>
            <figcaption>Software Developer</figcaption>
-           <figcaption >Nationality:Kenyan</figcaption>
-           <figcaption className='port'>Portfolio</figcaption>
+           <figcaption >Nationality:Rwandan</figcaption>
+           <figcaption className='port'><a href='https://fanny-portfolio-ashy.vercel.app/' >View Portfolio</a></figcaption>
+           
            </div>
            </div>
            <div className='akwang'>
@@ -29,7 +30,7 @@ const Homepage =()=>{
            <figcaption>Akwang Deu</figcaption>
            <figcaption>Software Developer</figcaption>
            <figcaption >Nationality:Kenyan</figcaption>
-           <figcaption className='port'>Portfolio</figcaption>
+           <figcaption className='port'><a href='' >View Portfolio</a></figcaption>
            </div>
            <div className='bottom'>
            <div className='ajema'>
