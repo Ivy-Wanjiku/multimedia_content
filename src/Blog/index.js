@@ -6,7 +6,7 @@ function Blog(){
 <div className='container-blog'>
     
        <div className='blog-text'>
-        <p className='title'>Femme Blogs</p>
+        <p className='title'>Born A Crime Blogs</p>
     </div>
     <div className='blog-layout-container'>
 
