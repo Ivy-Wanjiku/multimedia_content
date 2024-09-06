@@ -1,8 +1,9 @@
 import React from 'react';
 import './index.css'
 
-const Homepage =()=>{
+const Portfolio =()=>{
  return(
+    <div id='Portfolio'>
     <div className='whole'>
         <div>
             <h1 className='team'>OUR TEAM</h1>
@@ -51,18 +52,9 @@ const Homepage =()=>{
         </div>
                   
     </div>
+    </div>
 
  ) ;  
 }
 
-
-
-
-
-
-
-
-
-
-
-export default Homepage
+export default Portfolio;

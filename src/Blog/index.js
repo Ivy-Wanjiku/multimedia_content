@@ -3,10 +3,11 @@ import './index.css'
 
 function Blog(){
     return(
+        <div id='Blogs'>
 <div className='container-blog'>
     
        <div className='blog-text'>
-        <p className='title'>Born A Crime Blogs</p>
+        <p className='title'> <b>Born A Crime Blogs</b></p>
     </div>
     <div className='blog-layout-container'>
 
@@ -28,7 +29,7 @@ function Blog(){
 
 </div>    
    
-
+</div>
     )
 }
 

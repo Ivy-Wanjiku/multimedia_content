@@ -9,30 +9,14 @@ const Home = () => {
   };
 
   return (
+    <div id='Home'>
     <div className="landing_inspo">
-      <header>
-        <nav className={menuOpen ? 'open' : ''}>
-          <div className="logo">
-            <img src="media/inganji logo.png" alt="Logo"/>
-          </div>
-          <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
-            <li><a href="#home" onClick={toggleMenu}>Home</a></li>
-            <li><a href="#portfolio"onClick={toggleMenu}>Portfolio</a></li>
-            <li><a href="#podcasts"onClick={toggleMenu}>Podcasts</a></li>
-            <li><a href="#blogs"onClick={toggleMenu}>Blogs</a></li>
-            <li><a href="#videos" onClick={toggleMenu}>Videos</a></li>
-          </ul>
-          <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </nav>
-      </header>
       <div className="hero-content">
-            <h5>Discover inspiring multimedia content and advanced technical skills.</h5>
+            <h5> Get to listen to the best Podcast produced by Inganji .</h5>
           </div>
- 
+ <div>
+ </div>
+    </div>
     </div>
   );
 };

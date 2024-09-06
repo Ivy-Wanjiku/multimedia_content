@@ -1,6 +1,7 @@
 .title{
     text-align: center;
     color: rgb(43,89,106);
+    font-size: 20px;
 }
 .loom-video{
     display: flex;
@@ -21,12 +22,13 @@
     margin-top: 70px;
 }
 .loom-video3{
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     align-items: center;
     width: 100%;
     height: 100%;
     margin-top: 70px;
+    text-align: center;
 }
 .video-thumbnail {
     position: relative;

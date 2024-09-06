@@ -2,7 +2,7 @@ import './review.css'
 
 function Review(){
     return(
-        <div>
+        <div id='Review' className='Review'>
     <div className = 'blog-review-container'>
     <div className ='landing-page'>
         <div>

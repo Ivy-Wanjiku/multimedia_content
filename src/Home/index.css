@@ -5,13 +5,15 @@
 } */
 
 .landing_inspo {
-  background-image: url('/public/images/microphone.jpg');
-  min-height: 100vh;
+  background-image:url('/public/media/homepage.jpeg');
   background-repeat: no-repeat;
+  /* min-height: 100vh; */
   background-size: cover;
   flex-direction: column;
   font-family: Arial, sans-serif;
 }
+
+ 
 
 header {
 
@@ -25,8 +27,8 @@ nav {
 }
 
 .logo img {
-  width: 50px;
-  height: auto;
+  width: 200px;
+  height: 200px;;
   /* margin-left: 10px; */
 }
 
@@ -40,12 +42,14 @@ nav {
 }
 
 .nav-links a {
-  color: white;
+  color: rgb(15, 15, 15);
   text-decoration: none;
   padding: 0.5rem 1rem;
+  font-size: 20px;
 }
 
 .hamburger {
+
   display: none;
   flex-direction: column;
   cursor: pointer;
@@ -71,7 +75,7 @@ main {
   margin-left:50%;
   font-size:70px;
   margin-top:15%;
-  color:white;
+  color:rgb(15, 15, 15);
 }
 
 .hero-image {

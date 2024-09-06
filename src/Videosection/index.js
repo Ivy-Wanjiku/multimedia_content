@@ -1,6 +1,7 @@
 import './index.css'
 function Video(){
     return(
+      <div id='Videosection' className='Videosection'>
         <div className='video-background' >
          <div className='title'>
              <h1>HOW THINGS WORK</h1>
@@ -52,6 +53,7 @@ function Video(){
                   </div>
               </div>
         </div>
+</div>
 </div>
 )};
 export default Video;
